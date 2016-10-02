@@ -54,13 +54,11 @@
 				w2.location.href="http://www.forvo.com/word/" + q + "/#jp";
 			};
 
-
 			if(w3 == null || w3.closed) {
-				w7 = window.open("http://tangorin.com/general/" + q);
+				w3 = window.open("http://tangorin.com/general/" + q);
 			} else {
-				w7.location.href="http://tangorin.com/general/" + q;
+				w3.location.href="http://tangorin.com/general/" + q;
 			};
-
 
 			if(w4 == null || w4.closed) {
 				w4 = window.open("http://jisho.org/search/" + q);
@@ -68,7 +66,7 @@
 				w4.location.href="http://jisho.org/search/" + q;
 			};
       
-      if(w5 == null || w5.closed) {
+      			if(w5 == null || w5.closed) {
 				w5 = window.open("http://eow.alc.co.jp/search?q=" + q + "&ref=sa" + q);
 			} else {
 				w5.location.href="http://eow.alc.co.jp/search?q=" + q + "&ref=sa" + q;
